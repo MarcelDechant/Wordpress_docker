@@ -71,7 +71,7 @@ This section provides a fast and **minimal setup guide** for using the tools in 
 5. Check whether the **server is running** correctly:
 
 * WordPress can be reached under the *IP address of your cloud VM on port 8080*:
-  * http://<your_vm_ip>:8080
+  * http://`<your_vm_ip>`:8080
 
 * When you open the page you will be redirected to the **installation page** and can now start creating your account. After the setting, a sample blog page appears if you have not yet written your own post.
 
@@ -153,17 +153,17 @@ This section provides a fast and **minimal setup guide** for using the tools in 
             docker network inspect <network-name>
             ```
 
-            * <ins>To check if the wordpress and mariadb container are in the same network</ins>:
+        * To check if the wordpress and mariadb container are in the same network:
 
-                ```bash
-                docker network inspect wordpress_default
-                ```  
+            ```bash
+            docker network inspect wordpress_default
+            ```  
 
-                ![network](/network.png)
+            ![network](/network.png)
 3. Check whether the **server is running** correctly:
 
 * WordPress can be reached under the *IP address of your cloud VM on port 8080*:
-  * http://<your_vm_ip>:8080
+  * http://`<your_vm_ip>`:8080
 
 * When you open the page you will be redirected to the **installation page** and can now start creating your account:  
 
